@@ -11,18 +11,29 @@
 		2E0D73C2289662A2004C77EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D73C1289662A2004C77EB /* ContentView.swift */; };
 		2E0D73C4289662A6004C77EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D73C3289662A6004C77EB /* Assets.xcassets */; };
 		2E0D73C7289662A6004C77EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D73C6289662A6004C77EB /* Preview Assets.xcassets */; };
+		2E1D594E2896700B00A2D68B /* MultiPlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D73BF289662A2004C77EB /* MultiPlatformApp.swift */; };
+		2E1D594F2896703300A2D68B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D73C1289662A2004C77EB /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E0D73BC289662A2004C77EB /* MultiPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0D73BC289662A2004C77EB /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0D73BF289662A2004C77EB /* MultiPlatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPlatformApp.swift; sourceTree = "<group>"; };
 		2E0D73C1289662A2004C77EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E0D73C3289662A6004C77EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E0D73C6289662A6004C77EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E1D593F28966FA400A2D68B /* macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E1D594A28966FA500A2D68B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2E0D73B9289662A2004C77EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E1D593C28966FA400A2D68B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,7 +54,8 @@
 		2E0D73BD289662A2004C77EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E0D73BC289662A2004C77EB /* MultiPlatform.app */,
+				2E0D73BC289662A2004C77EB /* iOS.app */,
+				2E1D593F28966FA400A2D68B /* macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +63,7 @@
 		2E0D73BE289662A2004C77EB /* MultiPlatform */ = {
 			isa = PBXGroup;
 			children = (
+				2E1D594A28966FA500A2D68B /* macOS.entitlements */,
 				2E0D73BF289662A2004C77EB /* MultiPlatformApp.swift */,
 				2E0D73C1289662A2004C77EB /* ContentView.swift */,
 				2E0D73C3289662A6004C77EB /* Assets.xcassets */,
@@ -70,9 +83,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2E0D73BB289662A2004C77EB /* MultiPlatform */ = {
+		2E0D73BB289662A2004C77EB /* iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E0D73CA289662A6004C77EB /* Build configuration list for PBXNativeTarget "MultiPlatform" */;
+			buildConfigurationList = 2E0D73CA289662A6004C77EB /* Build configuration list for PBXNativeTarget "iOS" */;
 			buildPhases = (
 				2E0D73B8289662A2004C77EB /* Sources */,
 				2E0D73B9289662A2004C77EB /* Frameworks */,
@@ -82,9 +95,26 @@
 			);
 			dependencies = (
 			);
-			name = MultiPlatform;
+			name = iOS;
 			productName = MultiPlatform;
-			productReference = 2E0D73BC289662A2004C77EB /* MultiPlatform.app */;
+			productReference = 2E0D73BC289662A2004C77EB /* iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E1D593E28966FA400A2D68B /* macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E1D594D28966FA500A2D68B /* Build configuration list for PBXNativeTarget "macOS" */;
+			buildPhases = (
+				2E1D593B28966FA400A2D68B /* Sources */,
+				2E1D593C28966FA400A2D68B /* Frameworks */,
+				2E1D593D28966FA400A2D68B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOS;
+			productName = macOS;
+			productReference = 2E1D593F28966FA400A2D68B /* macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,6 +128,9 @@
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					2E0D73BB289662A2004C77EB = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					2E1D593E28966FA400A2D68B = {
 						CreatedOnToolsVersion = 14.0;
 					};
 				};
@@ -115,7 +148,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E0D73BB289662A2004C77EB /* MultiPlatform */,
+				2E0D73BB289662A2004C77EB /* iOS */,
+				2E1D593E28966FA400A2D68B /* macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +164,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2E1D593D28966FA400A2D68B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,6 +180,15 @@
 			files = (
 				2E0D73C2289662A2004C77EB /* ContentView.swift in Sources */,
 				2E0D73C0289662A2004C77EB /* MultiPlatformApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E1D593B28966FA400A2D68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E1D594F2896703300A2D68B /* ContentView.swift in Sources */,
+				2E1D594E2896700B00A2D68B /* MultiPlatformApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +367,64 @@
 			};
 			name = Release;
 		};
+		2E1D594B28966FA500A2D68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MultiPlatform/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MultiPlatform/Preview Content\"";
+				DEVELOPMENT_TEAM = PU5HXZ4FZ2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = con.zunda.macOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2E1D594C28966FA500A2D68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MultiPlatform/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MultiPlatform/Preview Content\"";
+				DEVELOPMENT_TEAM = PU5HXZ4FZ2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = con.zunda.macOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -329,11 +437,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E0D73CA289662A6004C77EB /* Build configuration list for PBXNativeTarget "MultiPlatform" */ = {
+		2E0D73CA289662A6004C77EB /* Build configuration list for PBXNativeTarget "iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E0D73CB289662A6004C77EB /* Debug */,
 				2E0D73CC289662A6004C77EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E1D594D28966FA500A2D68B /* Build configuration list for PBXNativeTarget "macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E1D594B28966FA500A2D68B /* Debug */,
+				2E1D594C28966FA500A2D68B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
