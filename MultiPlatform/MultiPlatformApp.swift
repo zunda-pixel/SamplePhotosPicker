@@ -7,9 +7,9 @@ import SwiftUI
 
 @main
 struct MultiPlatformApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
 }
