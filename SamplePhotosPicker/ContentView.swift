@@ -50,7 +50,7 @@ struct ContentView: View {
           #if !os(macOS)
           .tabViewStyle(.page(indexDisplayMode: .always))
           #endif
-          .background(.black)
+          .background(.secondary)
         }
       }
 
