@@ -1,12 +1,12 @@
 //
-// MultiPlatformApp.swift
+// SamplePhotosPickerApp.swift
 //
 
 
 import SwiftUI
 
 @main
-struct MultiPlatformApp: App {
+struct SamplePhotosPickerApp: App {
   var body: some Scene {
     WindowGroup {
       ContentView()

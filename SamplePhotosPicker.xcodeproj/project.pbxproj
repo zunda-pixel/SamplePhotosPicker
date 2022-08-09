@@ -7,54 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E0D73C0289662A2004C77EB /* MultiPlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D73BF289662A2004C77EB /* MultiPlatformApp.swift */; };
+		2E0D73C0289662A2004C77EB /* SamplePhotosPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D73BF289662A2004C77EB /* SamplePhotosPickerApp.swift */; };
 		2E0D73C2289662A2004C77EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D73C1289662A2004C77EB /* ContentView.swift */; };
 		2E0D73C4289662A6004C77EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D73C3289662A6004C77EB /* Assets.xcassets */; };
 		2E0D73C7289662A6004C77EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D73C6289662A6004C77EB /* Preview Assets.xcassets */; };
-		2E1D594E2896700B00A2D68B /* MultiPlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D73BF289662A2004C77EB /* MultiPlatformApp.swift */; };
+		2E1D594E2896700B00A2D68B /* SamplePhotosPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D73BF289662A2004C77EB /* SamplePhotosPickerApp.swift */; };
 		2E1D594F2896703300A2D68B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D73C1289662A2004C77EB /* ContentView.swift */; };
-		2E1D59582896707400A2D68B /* watchOS Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2E1D59572896707400A2D68B /* watchOS Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2E1D596C289670B400A2D68B /* MultiPlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D73BF289662A2004C77EB /* MultiPlatformApp.swift */; };
-		2E1D596D289670B700A2D68B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D73C1289662A2004C77EB /* ContentView.swift */; };
-		2E1D59802896711D00A2D68B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D73C1289662A2004C77EB /* ContentView.swift */; };
-		2E1D59812896712100A2D68B /* MultiPlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D73BF289662A2004C77EB /* MultiPlatformApp.swift */; };
+		2EBC427528A21BBB00846C07 /* LivePhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC427428A21BBB00846C07 /* LivePhotoView.swift */; };
+		2EBC427728A21BF300846C07 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC427628A21BF300846C07 /* Movie.swift */; };
+		2EBC427928A21C0B00846C07 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC427828A21C0B00846C07 /* Photo.swift */; };
+		2EBC427B28A21C2500846C07 /* PhotosPickerItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC427A28A21C2500846C07 /* PhotosPickerItem+Extension.swift */; };
+		2EBC427D28A21C4600846C07 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC427C28A21C4600846C07 /* PhotoView.swift */; };
+		2EBC427E28A21CE600846C07 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC427828A21C0B00846C07 /* Photo.swift */; };
+		2EBC428128A21CEF00846C07 /* LivePhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC427428A21BBB00846C07 /* LivePhotoView.swift */; };
+		2EBC428428A21CF400846C07 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC427628A21BF300846C07 /* Movie.swift */; };
+		2EBC428728A21CFA00846C07 /* PhotosPickerItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC427A28A21C2500846C07 /* PhotosPickerItem+Extension.swift */; };
+		2EBC428A28A21CFE00846C07 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC427C28A21C4600846C07 /* PhotoView.swift */; };
+		2EBC428E28A2219C00846C07 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC428D28A2219C00846C07 /* ImageData.swift */; };
+		2EBC428F28A221B600846C07 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC428D28A2219C00846C07 /* ImageData.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2E1D59592896707400A2D68B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2E0D73B4289662A2004C77EB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2E1D59562896707400A2D68B;
-			remoteInfo = "watchOS Watch App";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		2E1D59682896707500A2D68B /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				2E1D59582896707400A2D68B /* watchOS Watch App.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2E0D73BC289662A2004C77EB /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E0D73BF289662A2004C77EB /* MultiPlatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPlatformApp.swift; sourceTree = "<group>"; };
+		2E0D73BF289662A2004C77EB /* SamplePhotosPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePhotosPickerApp.swift; sourceTree = "<group>"; };
 		2E0D73C1289662A2004C77EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E0D73C3289662A6004C77EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E0D73C6289662A6004C77EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2E1D593F28966FA400A2D68B /* macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1D594A28966FA500A2D68B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		2E1D59522896707400A2D68B /* watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E1D59572896707400A2D68B /* watchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E1D5972289670F100A2D68B /* tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EBC427428A21BBB00846C07 /* LivePhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePhotoView.swift; sourceTree = "<group>"; };
+		2EBC427628A21BF300846C07 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		2EBC427828A21C0B00846C07 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		2EBC427A28A21C2500846C07 /* PhotosPickerItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotosPickerItem+Extension.swift"; sourceTree = "<group>"; };
+		2EBC427C28A21C4600846C07 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		2EBC428D28A2219C00846C07 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,27 +58,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E1D59542896707400A2D68B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E1D596F289670F100A2D68B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2E0D73B3289662A2004C77EB = {
 			isa = PBXGroup;
 			children = (
-				2E0D73BE289662A2004C77EB /* Template */,
+				2E0D73BE289662A2004C77EB /* SamplePhotosPicker */,
 				2E0D73BD289662A2004C77EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,23 +74,26 @@
 			children = (
 				2E0D73BC289662A2004C77EB /* iOS.app */,
 				2E1D593F28966FA400A2D68B /* macOS.app */,
-				2E1D59522896707400A2D68B /* watchOS.app */,
-				2E1D59572896707400A2D68B /* watchOS Watch App.app */,
-				2E1D5972289670F100A2D68B /* tvOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2E0D73BE289662A2004C77EB /* Template */ = {
+		2E0D73BE289662A2004C77EB /* SamplePhotosPicker */ = {
 			isa = PBXGroup;
 			children = (
 				2E1D594A28966FA500A2D68B /* macOS.entitlements */,
-				2E0D73BF289662A2004C77EB /* MultiPlatformApp.swift */,
+				2E0D73BF289662A2004C77EB /* SamplePhotosPickerApp.swift */,
 				2E0D73C1289662A2004C77EB /* ContentView.swift */,
+				2EBC427428A21BBB00846C07 /* LivePhotoView.swift */,
+				2EBC427628A21BF300846C07 /* Movie.swift */,
+				2EBC427828A21C0B00846C07 /* Photo.swift */,
+				2EBC427A28A21C2500846C07 /* PhotosPickerItem+Extension.swift */,
+				2EBC428D28A2219C00846C07 /* ImageData.swift */,
+				2EBC427C28A21C4600846C07 /* PhotoView.swift */,
 				2E0D73C3289662A6004C77EB /* Assets.xcassets */,
 				2E0D73C5289662A6004C77EB /* Preview Content */,
 			);
-			path = Template;
+			path = SamplePhotosPicker;
 			sourceTree = "<group>";
 		};
 		2E0D73C5289662A6004C77EB /* Preview Content */ = {
@@ -166,57 +141,6 @@
 			productReference = 2E1D593F28966FA400A2D68B /* macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2E1D59512896707400A2D68B /* watchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2E1D59692896707500A2D68B /* Build configuration list for PBXNativeTarget "watchOS" */;
-			buildPhases = (
-				2E1D59502896707400A2D68B /* Resources */,
-				2E1D59682896707500A2D68B /* Embed Watch Content */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2E1D595A2896707400A2D68B /* PBXTargetDependency */,
-			);
-			name = watchOS;
-			productName = watchOS;
-			productReference = 2E1D59522896707400A2D68B /* watchOS.app */;
-			productType = "com.apple.product-type.application.watchapp2-container";
-		};
-		2E1D59562896707400A2D68B /* watchOS Watch App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2E1D59652896707500A2D68B /* Build configuration list for PBXNativeTarget "watchOS Watch App" */;
-			buildPhases = (
-				2E1D59532896707400A2D68B /* Sources */,
-				2E1D59542896707400A2D68B /* Frameworks */,
-				2E1D59552896707400A2D68B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "watchOS Watch App";
-			productName = "watchOS Watch App";
-			productReference = 2E1D59572896707400A2D68B /* watchOS Watch App.app */;
-			productType = "com.apple.product-type.application";
-		};
-		2E1D5971289670F100A2D68B /* tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2E1D597D289670F200A2D68B /* Build configuration list for PBXNativeTarget "tvOS" */;
-			buildPhases = (
-				2E1D596E289670F100A2D68B /* Sources */,
-				2E1D596F289670F100A2D68B /* Frameworks */,
-				2E1D5970289670F100A2D68B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = tvOS;
-			productName = tvOS;
-			productReference = 2E1D5972289670F100A2D68B /* tvOS.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -233,18 +157,9 @@
 					2E1D593E28966FA400A2D68B = {
 						CreatedOnToolsVersion = 14.0;
 					};
-					2E1D59512896707400A2D68B = {
-						CreatedOnToolsVersion = 14.0;
-					};
-					2E1D59562896707400A2D68B = {
-						CreatedOnToolsVersion = 14.0;
-					};
-					2E1D5971289670F100A2D68B = {
-						CreatedOnToolsVersion = 14.0;
-					};
 				};
 			};
-			buildConfigurationList = 2E0D73B7289662A2004C77EB /* Build configuration list for PBXProject "Template" */;
+			buildConfigurationList = 2E0D73B7289662A2004C77EB /* Build configuration list for PBXProject "SamplePhotosPicker" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -259,9 +174,6 @@
 			targets = (
 				2E0D73BB289662A2004C77EB /* iOS */,
 				2E1D593E28966FA400A2D68B /* macOS */,
-				2E1D59512896707400A2D68B /* watchOS */,
-				2E1D59562896707400A2D68B /* watchOS Watch App */,
-				2E1D5971289670F100A2D68B /* tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -283,27 +195,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E1D59502896707400A2D68B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E1D59552896707400A2D68B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E1D5970289670F100A2D68B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -311,8 +202,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EBC427B28A21C2500846C07 /* PhotosPickerItem+Extension.swift in Sources */,
 				2E0D73C2289662A2004C77EB /* ContentView.swift in Sources */,
-				2E0D73C0289662A2004C77EB /* MultiPlatformApp.swift in Sources */,
+				2EBC427D28A21C4600846C07 /* PhotoView.swift in Sources */,
+				2E0D73C0289662A2004C77EB /* SamplePhotosPickerApp.swift in Sources */,
+				2EBC427728A21BF300846C07 /* Movie.swift in Sources */,
+				2EBC427528A21BBB00846C07 /* LivePhotoView.swift in Sources */,
+				2EBC427928A21C0B00846C07 /* Photo.swift in Sources */,
+				2EBC428E28A2219C00846C07 /* ImageData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,38 +217,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EBC427E28A21CE600846C07 /* Photo.swift in Sources */,
 				2E1D594F2896703300A2D68B /* ContentView.swift in Sources */,
-				2E1D594E2896700B00A2D68B /* MultiPlatformApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E1D59532896707400A2D68B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E1D596C289670B400A2D68B /* MultiPlatformApp.swift in Sources */,
-				2E1D596D289670B700A2D68B /* ContentView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E1D596E289670F100A2D68B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E1D59812896712100A2D68B /* MultiPlatformApp.swift in Sources */,
-				2E1D59802896711D00A2D68B /* ContentView.swift in Sources */,
+				2EBC428A28A21CFE00846C07 /* PhotoView.swift in Sources */,
+				2EBC428728A21CFA00846C07 /* PhotosPickerItem+Extension.swift in Sources */,
+				2E1D594E2896700B00A2D68B /* SamplePhotosPickerApp.swift in Sources */,
+				2EBC428128A21CEF00846C07 /* LivePhotoView.swift in Sources */,
+				2EBC428428A21CF400846C07 /* Movie.swift in Sources */,
+				2EBC428F28A221B600846C07 /* ImageData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2E1D595A2896707400A2D68B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2E1D59562896707400A2D68B /* watchOS Watch App */;
-			targetProxy = 2E1D59592896707400A2D68B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2E0D73C8289662A6004C77EB /* Debug */ = {
@@ -411,6 +288,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
 			};
 			name = Debug;
 		};
@@ -464,6 +342,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -475,7 +354,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Template/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SamplePhotosPicker/Preview Content\"";
 				DEVELOPMENT_TEAM = PU5HXZ4FZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -492,6 +371,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = con.zunda.MultiPlatform;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -504,7 +384,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Template/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SamplePhotosPicker/Preview Content\"";
 				DEVELOPMENT_TEAM = PU5HXZ4FZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -521,6 +401,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = con.zunda.MultiPlatform;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -531,11 +412,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Template/macOS.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SamplePhotosPicker/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Template/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SamplePhotosPicker/Preview Content\"";
 				DEVELOPMENT_TEAM = PU5HXZ4FZ2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -551,6 +432,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -560,11 +442,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Template/macOS.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SamplePhotosPicker/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Template/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SamplePhotosPicker/Preview Content\"";
 				DEVELOPMENT_TEAM = PU5HXZ4FZ2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -580,160 +462,15 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		2E1D59662896707500A2D68B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Template/Preview Content\"";
-				DEVELOPMENT_TEAM = PU5HXZ4FZ2;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = watchOS;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKWatchOnly = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = con.zunda.watchOS.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		2E1D59672896707500A2D68B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Template/Preview Content\"";
-				DEVELOPMENT_TEAM = PU5HXZ4FZ2;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = watchOS;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKWatchOnly = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = con.zunda.watchOS.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Release;
-		};
-		2E1D596A2896707500A2D68B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PU5HXZ4FZ2;
-				INFOPLIST_KEY_CFBundleDisplayName = watchOS;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = con.zunda.watchOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		2E1D596B2896707500A2D68B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PU5HXZ4FZ2;
-				INFOPLIST_KEY_CFBundleDisplayName = watchOS;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = con.zunda.watchOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		2E1D597E289670F200A2D68B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Template/Preview Content\"";
-				DEVELOPMENT_TEAM = PU5HXZ4FZ2;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = con.zunda.tvOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 16.0;
-			};
-			name = Debug;
-		};
-		2E1D597F289670F200A2D68B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Template/Preview Content\"";
-				DEVELOPMENT_TEAM = PU5HXZ4FZ2;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = con.zunda.tvOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 16.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E0D73B7289662A2004C77EB /* Build configuration list for PBXProject "Template" */ = {
+		2E0D73B7289662A2004C77EB /* Build configuration list for PBXProject "SamplePhotosPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E0D73C8289662A6004C77EB /* Debug */,
@@ -756,33 +493,6 @@
 			buildConfigurations = (
 				2E1D594B28966FA500A2D68B /* Debug */,
 				2E1D594C28966FA500A2D68B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2E1D59652896707500A2D68B /* Build configuration list for PBXNativeTarget "watchOS Watch App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2E1D59662896707500A2D68B /* Debug */,
-				2E1D59672896707500A2D68B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2E1D59692896707500A2D68B /* Build configuration list for PBXNativeTarget "watchOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2E1D596A2896707500A2D68B /* Debug */,
-				2E1D596B2896707500A2D68B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2E1D597D289670F200A2D68B /* Build configuration list for PBXNativeTarget "tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2E1D597E289670F200A2D68B /* Debug */,
-				2E1D597F289670F200A2D68B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
